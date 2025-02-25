@@ -1,134 +1,167 @@
 body {
+
     background-color: #1b2727;
-    color: #f3f8f4;
+    color: #fefffe;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+
 }
 
+
 header {
-    background-color: #1c4443;
-    padding: 20px;
-    text-align: center;
+    background-color: #225756;
 }
+
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin:10px;
+
 }
 
+
 nav ul li a {
-    color: #f3f8f4;
+
+    color: #f0f4f1;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight:600;
 }
+
 
 .hero {
     text-align: center;
-    padding: 60px;
+    padding: 10px;
     background-color: #2f3c4f;
+    position:relative;
 }
-
 .hero h1 {
     font-size: 3rem;
     color: #fed583;
 }
-
+.hero p {
+    max-width: 600px;
+    margin: 15px auto;
+    font-size:larger;
+}
 .hero button {
     background-color: #fed583;
-    border: none;
-    padding: 15px 30px;
-    cursor: pointer;
-    font-size: 20px;
-    border-radius: 10px;
-    font-weight: bold;
+    border:none;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 15px;
+    font-weight:600;
+    margin-top: 12px;
 }
-
 .hero-image img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
     margin-top: 20px;
 }
 
-.features, #about, #services, #faq {
+
+section {
+
     padding: 40px;
+
     text-align: center;
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
 }
 
-.features {
+
+section:nth-child(even) {
+
     background-color: #272229;
+
 }
 
-.features .feature-item {
-    margin: 15px 0;
-    font-size: 18px;
-}
 
-.features .feature-item i {
-    margin-right: 10px;
+h2 {
+
+    font-size: 2rem;
+
     color: #fed583;
+
+    margin-bottom: 20px;
+
 }
 
-.features ul {
-    list-style: none;
-    padding: 0;
+
+p {
+
+    max-width: 600px;
+
+    margin: 0 auto 20px;
+
+    line-height: 1.6;
+
 }
 
-.features ul li {
-    margin-bottom: 15px;
+
+button {
+
+    background-color: #ffe499;
+
+    border: none;
+
+    padding: 10px 20px;
+
     font-size: 18px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    color: #000009;
+
 }
 
-#about {
-    background-color: #326d6c;
-}
 
-#about .about-images img {
-    max-width: 48%;
-    margin: 10px;
+img {
+
+    max-width: 100%;
+
+    height: auto;
+
     border-radius: 8px;
+
+    margin-top: 20px;
+
 }
 
-#services {
-    background-color: #2f3c4f;
-}
-
-#services .service-item {
-    margin: 20px 0;
-    font-size: 18px;
-}
-
-#services .service-images img {
-    max-width: 48%;
-    margin: 10px;
-    border-radius: 8px;
-}
-
-#faq {
-    background-color: #326d6c;
-}
-
-#contact {
-    background-color: #2f3c4f;
-    padding: 30px;
-    text-align: center;
-}
-
-.contact-info .contact-item {
-    margin: 10px 0;
-}
 
 footer {
+
     background-color: #1c4443;
-    padding: 15px;
+
+    padding: 20px;
+
     text-align: center;
+
 }
 
-.footer-logo img {
-    max-width: 150px;
+
+footer img {
+
+    margin-bottom: 10px;
+
 }
